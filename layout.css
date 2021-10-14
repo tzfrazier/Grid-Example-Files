@@ -1,0 +1,57 @@
+/*Media Queries*/
+/*Basic Layout*/
+  /*Broad Elements*/
+html{
+  padding:0px;
+}
+body{
+  padding:0px;
+}
+header{
+  padding:0px;
+}
+div {
+  display: block;
+  margin: 0em 5em 5em 5em;
+}
+  /*header*/
+    /*Nav*/
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+  nav > ul{
+    display:block;
+  }
+    li.nav{
+      display: inline-block;
+      align-items: center;
+      margin:0.5em;
+      padding:0.5em;
+    }
+.banner {
+  margin: 5em 0em 2em 0em;
+  margin-top:5em;
+  padding:.15em;
+}
+#meFace
+{
+  display: block;
+  float: left;
+  max-width:15%;
+  overflow: hidden;
+  border-radius: 0;
+}
+/*main*/
+img {
+  margin: 1em;
+  max-height: 15%;
+  max-width: 20%;
+  display:block;
+}
+p{
+  display:block;
+  ;
+}
+  /*news Div*/
